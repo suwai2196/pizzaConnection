@@ -9,7 +9,7 @@ from flask import Flask
 from flask import request
 from flask import make_response
 from owlready2 import *
-
+app = Flask(__name__)
 def ConnectOnto():
     my_world = World()
     my_world.get_ontology('file://owl/pizza.owl').load()  # path to the owl file is given here
