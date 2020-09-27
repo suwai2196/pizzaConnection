@@ -26,7 +26,3 @@ def webhook():
         "displayText": '25',
         "source": "webhookdata"
     }
-    
-   
-if __name__ == '__main__':
-  app.run(host='0.0.0.0', port=8080) # This line is required to run Flask on repl.it
